@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<StackPane fx:id="main_stack" prefHeight="542.0" prefWidth="906.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ethereal.ai.Launch.Controller">
+
+    <padding><Insets bottom="50" left="50" right="50" top="50" /></padding>
+   <children>
+   
+       <Label fx:id="response_text" text="Hello" textOverrun="CLIP">
+           <font>
+               <Font name="Monospaced" size="64.0" />
+           </font>
+       </Label>
+
+      <TextField fx:id="input_text" prefHeight="0.0" prefWidth="0.0" promptText="Write here..." StackPane.alignment="BOTTOM_LEFT" onAction="#receiveInput"/>
+
+   </children>
+
+</StackPane>
