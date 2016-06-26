@@ -7,6 +7,20 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="json-simple-1.1.1" level="project" />
+    <orderEntry type="library" exported="" name="json-simple-1.1.1" level="project" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../Resources/Java Libraries/stanford-corenlp-full-2015-12-09" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../Resources/Java Libraries/stanford-corenlp-full-2015-12-09" />
+          <root url="file://$MODULE_DIR$/../../Resources/Java Libraries/stanford-corenlp-full-2015-12-09" />
+        </SOURCES>
+        <jarDirectory url="file://$MODULE_DIR$/../../Resources/Java Libraries/stanford-corenlp-full-2015-12-09" recursive="false" />
+        <jarDirectory url="file://$MODULE_DIR$/../../Resources/Java Libraries/stanford-corenlp-full-2015-12-09" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
   </component>
 </module>

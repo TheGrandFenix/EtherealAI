@@ -1,6 +1,6 @@
 package ethereal.ai.Launch;
 
-import ethereal.ai.Interpreting.Language.directInputInterpreter;
+import ethereal.ai.Input.Language.textInputHandler;
 import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.StackPane;
@@ -13,8 +13,8 @@ public class Controller {
 
     public void receiveInput() {
 
-        directInputInterpreter interpreter = new directInputInterpreter();
-        interpreter.AnalyseInput(input_text.getText());
+        textInputHandler interpreter = new textInputHandler();
+        interpreter.HandleTextInput(input_text.getText());
         input_text.clear();
 
     }
